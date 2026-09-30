@@ -1,3 +1,11 @@
+# S-DPQ: Block-Level Angular and Norm Matching for Data-Free Ternary Quantization
+
+Official PyTorch reference implementation for the paper **"S-DPQ: Block-Level Angular and Norm Matching for Data-Free Ternary Quantization"**, accepted at the **AXIOM Workshop @ NeurIPS 2026 (Paris, France)**.
+
+[![Paper](https://img.shields.io/badge/OpenReview-Paper-blue)](https://openreview.net/forum?id=o0b7d3p7Wq)
+
+---
+
 # S-DPQ Reference Implementation
 
 This repository contains the code to reproduce the results in the paper **"S-DPQ: Block-Level Angular and Norm Matching for Data-Free Ternary Quantization"**.
@@ -26,3 +34,16 @@ The evaluation datasets are loaded via the Hugging Face `datasets` library using
 - SST-2 Dataset (SetFit distribution): <https://huggingface.co/datasets/SetFit/sst2>
 - MRPC Dataset (SetFit distribution): <https://huggingface.co/datasets/SetFit/mrpc>
 - Hugging Face Transformers license: <https://github.com/huggingface/transformers/blob/main/LICENSE>
+
+## Citation
+
+If you find this work useful in your research, please cite:
+
+```bibtex
+@inproceedings{sakour2026sdpq,
+  title={S-DPQ: Block-Level Angular and Norm Matching for Data-Free Ternary Quantization},
+  author={Sakour, Ali and Sakour, Zoalfekar},
+  booktitle={AXIOM: Foundations of Efficient Deep Learning Workshop @ NeurIPS},
+  year={2026},
+  url={https://openreview.net/forum?id=o0b7d3p7Wq}
+}
