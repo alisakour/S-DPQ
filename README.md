@@ -42,7 +42,7 @@ If you find this work useful in your research, please cite:
 ```bibtex
 @inproceedings{sakour2026sdpq,
   title={S-DPQ: Block-Level Angular and Norm Matching for Data-Free Ternary Quantization},
-  author={Sakour, Ali and Sakour, Zoalfekar},
+  author={Sakour, Ali},
   booktitle={AXIOM: Foundations of Efficient Deep Learning Workshop @ NeurIPS},
   year={2026},
   url={https://openreview.net/forum?id=o0b7d3p7Wq}
